@@ -19,6 +19,12 @@ body{
     width: 350px;
 }
 
+@media-screen(max-width:600px){
+    .login-box{
+        width: 90%;
+    }
+}
+
 .login-box-center{
     position: absolute;
     top: 50%;
