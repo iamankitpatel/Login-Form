@@ -15,8 +15,13 @@ body{
     background-color: #ffffffd9;
     padding: 1rem 2rem;
     border-radius: 15px;
-    width: 90%;
     max-width: 350px;
+}
+
+@media screen (max-width:600px){
+    .login-box{
+    max-width: 90%;
+}
 }
 
 .input-field{
