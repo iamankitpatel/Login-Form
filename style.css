@@ -1,23 +1,21 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
-    height: 100vh;
     background: linear-gradient(45deg, #7403ff, #ff00ea);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
 
 .login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #ffffffd9;
     padding: 1rem 2rem;
     border-radius: 15px;
     width: 350px;
-}
-
-.login-box-center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .input-field{
