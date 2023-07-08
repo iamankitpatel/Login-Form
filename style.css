@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #7403ff, #ff00ea);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+.login-box{
+    background-color: #ffffffd9;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.login-box-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-field{
+    padding: 0.6rem;
+    font-size: small;
+    border-radius: 10px;
+    width: 100%;
+    border: 1.5px solid #7403ff;
+    margin: 0.5rem 0rem;
+}
+
+.label{
+    line-height: 1.5rem;
+    font-size: medium;
+}
+
+.input-field:focus{
+    border: 1.5px solid #ff00ea;
+    outline: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.login-btn{
+    background: linear-gradient(45deg, #7403ff, #ff00ea);
+    border: none;
+    padding: 0.8rem;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    margin: 1rem 0rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #c7c7c7;
+}
+
+.member{
+    font-size: 1rem;
+}
+
+.signup-link{
+    text-decoration: none;
+    color: #7403ff;
+}
+
+.signup-link:hover{
+    color: #ff00ea;
+}
+
+.forgot-link{
+    text-decoration: none;
+    color: #e000ce;
+}
+
+.forgot-link:hover{
+    color: #7403ff;
+}
+
+.login-icon{
+    list-style-type: none;
+    list-style-position: inside;
+    font-size: larger;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.icon-list{
+    padding: 0.6rem;
+    margin: 0rem 0.4rem;
+    background-color: #e000ce;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.icon-list:hover{
+    background-color: #7403ff;
+}
+
+.icon-list a{
+    color: #ffffff;
+    text-decoration: none;
+}
