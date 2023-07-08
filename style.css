@@ -1,7 +1,4 @@
 body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
     background: linear-gradient(45deg, #7403ff, #ff00ea);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
