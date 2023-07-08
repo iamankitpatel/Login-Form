@@ -6,6 +6,12 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
 
+@media-screen(max-width:600px){
+    body{
+        height: auto;
+    }
+}
+
 .login-box{
     background-color: #ffffffd9;
     padding: 1rem 2rem;
