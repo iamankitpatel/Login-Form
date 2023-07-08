@@ -1,12 +1,9 @@
 body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     background: linear-gradient(45deg, #7403ff, #ff00ea);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
-}
-
-@media-screen(max-width:600px){
-    body{
-        height: auto;
-    }
 }
 
 .login-box{
@@ -14,12 +11,6 @@ body{
     padding: 1rem 2rem;
     border-radius: 15px;
     width: 350px;
-}
-
-@media-screen(max-width:600px){
-    .login-box{
-        width: 90%;
-    }
 }
 
 .login-box-center{
