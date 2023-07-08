@@ -18,12 +18,6 @@ body{
     max-width: 350px;
 }
 
-@media screen (max-width:600px){
-    .login-box{
-        max-width: 500px;
-    }
-}
-
 .input-field{
     padding: 0.6rem;
     font-size: small;
