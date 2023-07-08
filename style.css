@@ -52,6 +52,11 @@ body{
     margin: 1rem 0rem;
     cursor: pointer;
     box-shadow: 5px 5px 10px #c7c7c7;
+    transition: 0.3s;
+}
+
+.login-btn:hover{
+    background: linear-gradient(45deg, #ff00ea, #7403ff);
 }
 
 .member{
