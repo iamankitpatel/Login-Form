@@ -20,8 +20,8 @@ body{
 
 @media screen (max-width:600px){
     .login-box{
-    max-width: 90%;
-}
+        max-width: 500px;
+    }
 }
 
 .input-field{
